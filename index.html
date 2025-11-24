@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinav Aby | Developer & Creator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">Abhinav Aby</div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to My Digital Space</h1>
+                <p class="subtitle">Exploring the web, one pixel at a time.</p>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio bento-section">
+            <div class="container">
+                <h2>Quick Links</h2>
+                <div class="card-grid" id="bento-grid">
+                    <!-- Magic Bento Cards -->
+                    <a href="https://www.google.com/" class="magic-bento-card magic-bento-card--border-glow">
+                        <div class="magic-bento-card__header">
+                            <div class="magic-bento-card__label">Search</div>
+                            <i class="ph ph-arrow-up-right"></i>
+                        </div>
+                        <div class="magic-bento-card__content">
+                            <div class="card-icon"><i class="ph ph-magnifying-glass"></i></div>
+                            <h2 class="magic-bento-card__title">Google</h2>
+                            <p class="magic-bento-card__description">Search the world's information.</p>
+                        </div>
+                    </a>
+
+                    <a href="https://chatgpt.com/" class="magic-bento-card magic-bento-card--border-glow">
+                        <div class="magic-bento-card__header">
+                            <div class="magic-bento-card__label">AI Assistant</div>
+                            <i class="ph ph-arrow-up-right"></i>
+                        </div>
+                        <div class="magic-bento-card__content">
+                            <div class="card-icon"><i class="ph ph-robot"></i></div>
+                            <h2 class="magic-bento-card__title">ChatGPT</h2>
+                            <p class="magic-bento-card__description">AI assistant for your queries.</p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.youtube.com/" class="magic-bento-card magic-bento-card--border-glow">
+                        <div class="magic-bento-card__header">
+                            <div class="magic-bento-card__label">Video</div>
+                            <i class="ph ph-play-circle"></i>
+                        </div>
+                        <div class="magic-bento-card__content">
+                            <div class="card-icon"><i class="ph ph-youtube-logo"></i></div>
+                            <h2 class="magic-bento-card__title">YouTube</h2>
+                            <p class="magic-bento-card__description">Watch and share videos.</p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.google.com/" class="magic-bento-card magic-bento-card--border-glow image-card">
+                        <img src="1000_F_506751155_fJ5Ko5T0wsTH7Q9VNwEgo6J81da8arlD.jpg" alt="Featured Content">
+                        <div class="card-overlay">
+                            <span>Featured</span>
+                        </div>
+                    </a>
+
+                    <a href="https://youtu.be/dQw4w9WgXcQ"
+                        class="magic-bento-card magic-bento-card--border-glow special-card">
+                        <div class="magic-bento-card__header">
+                            <div class="magic-bento-card__label">Reward</div>
+                            <i class="ph ph-star"></i>
+                        </div>
+                        <div class="magic-bento-card__content">
+                            <div class="card-icon"><i class="ph ph-gift"></i></div>
+                            <h2 class="magic-bento-card__title">Surprise</h2>
+                            <p class="magic-bento-card__description">Click to reveal a special reward.</p>
+                        </div>
+                    </a>
+
+                    <a href="900540.jpg" class="magic-bento-card magic-bento-card--border-glow">
+                        <div class="magic-bento-card__header">
+                            <div class="magic-bento-card__label">Photos</div>
+                            <i class="ph ph-image"></i>
+                        </div>
+                        <div class="magic-bento-card__content">
+                            <div class="card-icon"><i class="ph ph-images"></i></div>
+                            <h2 class="magic-bento-card__title">Gallery</h2>
+                            <p class="magic-bento-card__description">View exclusive photos.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Abhinav Aby. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="gallery.js"></script>
+</body>
+
+</html>
